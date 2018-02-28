@@ -11,7 +11,7 @@ export interface IKpiArcProps {
   height: number;
 }
 
-class SApp extends React.Component<IKpiArcProps, {}> {
+class Arc extends React.Component<IKpiArcProps, {}> {
   render() {
     const { startAngle, endAngle, kpiValue, height } = this.props;
 
@@ -70,6 +70,6 @@ class SApp extends React.Component<IKpiArcProps, {}> {
 }
 
 render(
-  <SApp startAngle={0} endAngle={0.9} kpiValue={0.5} height={100} />,
+  <Arc startAngle={0} endAngle={0.9} kpiValue={0.5} height={100} />,
   document.getElementById("root")
 );
