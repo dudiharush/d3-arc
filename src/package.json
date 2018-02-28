@@ -1,0 +1,18 @@
+{
+  "name": "D3-arc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://codesandbox.io/s/5k9lm8z3ol",
+  "main": "index.js",
+  "dependencies": {
+    "@types/d3-hierarchy": "1.1.0",
+    "d3": "4.10.2",
+    "d3-hierarchy": "1.1.5",
+    "d3-scale": "2.0.0",
+    "d3-selection": "1.3.0",
+    "d3-shape": "1.2.0",
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  }
+}
